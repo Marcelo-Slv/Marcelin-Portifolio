@@ -1,0 +1,111 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h2>Meu Portfólio</h2>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQndAYXeE1TGtJluAOwTAaRDk3OTguzZsNUDw&s');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        header { 
+            background-color: rgba(40, 44, 52, 0.8);
+            padding: 10px; 
+            text-align: center; 
+        }
+
+        section { 
+            padding: 20px; 
+        }
+
+        footer { 
+            background-color: rgba(40, 44, 52, 0.8);
+            color: white; 
+            text-align: center; 
+            padding: 10px; 
+            position: fixed; 
+            bottom: 0; 
+            width: 100%; 
+        }
+
+        a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Esta regra CSS muda a cor do título "Sobre Mim" para azul */
+        section h2:first-of-type {
+            color: blue;
+        }
+
+        .texto-preto {
+            color: black; /* Define a cor do texto como preta */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1> <!-- Texto removido -->
+    </header>
+    <section>
+        <h2>Sobre Mim</h2>
+        <p class="texto-branco">Eu me chamo Marcelo porém a maioria das pessoas me chamam de marcelin e estou ganhando experiência com HTML, CSS e JavaScript, eu gosto de basquete, amo minha familia e também gosto muito de fazer amigos.</p>
+    </section>
+    <section>
+        <h2>Servidor do Discord</h2>
+        <ul>
+            <li>Servidor 1 - <a href="https://discord.gg/platformdestroyer" target="_blank">Ver Servidor</a></li>
+        </ul>
+    </section>
+   <h2> Uma Musica que eu gosto muito:</h2> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yKNxeF4KMsY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h2>Jogador favorito (Ja Morant)</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnkVwYKdVq4Q8QjrzAS_VODP5i5kOqA470n6diKh5GxuCOrLWx9GgpRg&s" alt="Ja Morant"
+        
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contador de Visitas</title>
+            <script>
+                function incrementarVisitas() {
+                    let visitas = localStorage.getItem('visitas');
+
+                    if (visitas === null) {
+                        visitas = 0;
+                    } else {
+                        visitas = parseInt(visitas);
+                    }
+
+                    visitas += 1;
+                    localStorage.setItem('visitas', visitas);
+
+                    document.getElementById('contador').innerText = `Este site foi visitado ${visitas} vezes neste navegador!`;
+                }
+
+                window.onload = incrementarVisitas;
+            </script>
+        </head>
+        
+            <h1>Bem-vindo ao meu site!</h1>
+            <p id="contador"></p>
+        
+        </body>
+</html>
+```
+``
